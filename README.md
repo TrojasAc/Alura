@@ -15,7 +15,9 @@ Posteriormente,  seleccione el botón encriptar o desencriptar,  según su prefe
 ![Captura de pantalla 2024-08-21 133844](https://github.com/user-attachments/assets/7a1fa917-4268-4333-b829-297b348f594e)
 
 Una vez haya encriptado o desencriptado su texto,  si desea volver a someterlo a tratamiento de encriptación o desencriptación,  seleccione el botón "copiar",  
-pegue el texto en la zona de ingreso de texto y seleccione el botón Encriptar o Desencripitar según su preferencia.
+pegue el texto en la zona de ingreso de texto y seleccione el botón Encriptar o Desencriptar según su preferencia.
+
+Puedes ver la aplicación en funcionamiento a través de este enlace: https://alura-phi-three.vercel.app/
 
 Nota: La aplicación no recibirá mayúsculas,  tildes o caracteres especiales.
 
