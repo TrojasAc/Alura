@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+        </style>
+    
+</head>
+<body>
+    <header>
+        <img src="/imagenes/Logo.png" alt= "logo de alura" class="logo">
+    </header>
+
+    <main class="main-container">
+
+        <section class="gestionTexto">
+            <textarea class="Ingresotexto" name="Ingresotexto" id="Ingresotexto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="help">
+                <img src="/imagenes/exclamacion.png" alt="exclamacion" class="exclamacion">
+                <p class="ayuda">Solo letras minúsculas y sin acentos</p>
+               </div>
+               <div class="botones">
+                 <button class="btn-encriptar" id="btn-encriptar" type="button">Encriptar</button>
+                 <button class="btn-desencriptar" id="btn-desencriptar" type="button" >Desencriptar</button>
+               </div>
+        </section>
+
+        <section class="visualizadorResultado">
+            <div class="rectangulo">
+                <img src="imagenes/Muñeco.png" alt="Imagen de muñeco con lupa" class="imagen-rectangulo">
+                    <p class ="placeh1">Ningún mensaje fue encontrado</p>
+                    <p class ="placeh2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+        
+            <div class="resultadoencrip">
+                <textarea class="traductor" name="resultado" id="resultado" readonly></textarea>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="pie">Desarrollado por Tatiana Rojas</p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
